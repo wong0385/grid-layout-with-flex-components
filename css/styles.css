@@ -38,6 +38,7 @@ body {
 .emoji {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 h2, p, a {
@@ -46,7 +47,6 @@ h2, p, a {
 
 .icon {
   order: -1;
-  height: 75px;
 }
 
 span {
@@ -60,6 +60,5 @@ span {
 
 .emoji a {
   height: 20px;
-  display: flex;
   align-self: flex-end;
 }
