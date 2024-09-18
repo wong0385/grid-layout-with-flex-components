@@ -46,12 +46,20 @@ h2, p, a {
 
 .icon {
   order: -1;
-  flex-grow: 1;
-  /* align-content: center;
-  justify-content: center; */
+  height: 75px;
+}
+
+span {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.emoji h2 {
+  height: 30px;
 }
 
 .emoji a {
-  height: 22px;
-  /* justify-content: center; */
+  height: 20px;
+  display: flex;
+  align-self: flex-end;
 }
