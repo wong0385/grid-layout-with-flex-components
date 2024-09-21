@@ -49,11 +49,6 @@ h2, p, a {
   order: -1;
 }
 
-span {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .emoji h2 {
   height: 30px;
 }
